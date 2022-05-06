@@ -33,7 +33,7 @@ class TodoWidget extends StatelessWidget {
           secondaryActions: [
             IconSlideAction(
               color: Colors.red,
-              caption: 'Delete',
+              caption: 'Eliminar',
               onTap: () => deleteTodo(context, todo),
               icon: Icons.delete,
             )
@@ -192,7 +192,7 @@ executeTraslate(String code){
     final provider = Provider.of<TodosProvider>(context, listen: false);
     provider.removeTodo(todo);
 
-    Utils.showSnackBar(context, 'Deleted the task');
+    Utils.showSnackBar(context, 'Tarea eliminada');
   }
 
   void editTodo(BuildContext context, Todo todo) => Navigator.of(context).push(

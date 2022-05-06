@@ -1,0 +1,4 @@
+# Referenced at /Users/alexenrique/Documents/Proyectos Final/todoApp-master/build/app/intermediates/merged_manifests/debug/AndroidManifest.xml:21
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/alexenrique/Documents/Proyectos Final/todoApp-master/build/app/intermediates/merged_manifests/debug/AndroidManifest.xml:21
+-keep class androidx.multidex.MultiDexApplication { <init>(); }
